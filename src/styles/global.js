@@ -9,7 +9,8 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
   }
 
   body, input, button {
